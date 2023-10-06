@@ -45,6 +45,8 @@ The backed mainly offers these APIs for frontend:
 
 **`/book/findByBookTag/{tag}`** : a `GET` method return a `book`'s `joson` which's label including the `{tag}`.
 
+**`/book/deleteById/{id}`** : a `DELETE` method to drop the rows in database with the `id` as primary key.
+
 **`/book/updateById/{id}`** : a `PUT` method to change a `book`'s database info by the `id`, require a `json` body.  
 For any value's key matches the exact model attribute name in the `json` body <sub>(except `id`)</sub>, the vale would be update to the databse.  
 For example, the book with `{id}`:8 in data base is like:
