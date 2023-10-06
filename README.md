@@ -97,9 +97,14 @@ I want to implement the input filter in frontend, but not finish yet, and which 
 
 The sql file is under the project `database` directory. I use mySQl as my database and Apache web server.  
 The database name is `bookgallery` and the table name is `book`, database user name is `root` without setting any password.  
-<sub>(which could be easily found in `application.properties` file and you could change the database configuration if you want)</sub>
+<sub>(which could be easily found in `application.properties` file and you could change the database configuration if you want)</sub>  
 Both with them could be provided by `XAMPP`, so I use XAMPP 8.2.4 to run my database and web server.  
 ![WeChat3b2c016e448cb13a33b0a49bc3a00641](https://github.com/LukeYu-RX78/bookgallery/assets/116868785/e0a7f1f7-f3c0-4710-bcaa-c33fe03240c2)  
 
-After started the database and web server, just run the backend project
+After started the database and web server, just run the backend project.  
+![WeChat87ecbd7d8fbc6f18b72819a59530c333](https://github.com/LukeYu-RX78/bookgallery/assets/116868785/e86a0464-34a8-4b37-a670-f0d4e53d8649)  
 
+Then you can test it with sending the request to the server, and I use `Postman` here:  
+![WeChat54e226ce455279ffaf12b8014900c3c8](https://github.com/LukeYu-RX78/bookgallery/assets/116868785/2da96044-5d41-40b7-a0ee-8961017ad1d7)  
+![WeChatfd0623f2ca1f443c5701cc0bfc58c3b5](https://github.com/LukeYu-RX78/bookgallery/assets/116868785/25b6e107-488a-4977-acf8-afe7275edcf2)  
+LGTM anyway :)
