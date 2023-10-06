@@ -101,6 +101,9 @@ The database name is `bookgallery` and the table name is `book`, database user n
 Both with them could be provided by `XAMPP`, so I use XAMPP 8.2.4 to run my database and web server.  
 ![WeChat3b2c016e448cb13a33b0a49bc3a00641](https://github.com/LukeYu-RX78/bookgallery/assets/116868785/e0a7f1f7-f3c0-4710-bcaa-c33fe03240c2)  
 
+then you can create the database and table base on the `.sql` file, and export the qel file as you wish in `phpmyadmin`  
+<img width="1329" alt="image" src="https://github.com/LukeYu-RX78/bookgallery/assets/116868785/a2dabf9e-2475-4f66-8b22-2a30bbaca4a8">  
+
 After started the database and web server, just run the backend project.  
 ![WeChat87ecbd7d8fbc6f18b72819a59530c333](https://github.com/LukeYu-RX78/bookgallery/assets/116868785/e86a0464-34a8-4b37-a670-f0d4e53d8649)  
 
