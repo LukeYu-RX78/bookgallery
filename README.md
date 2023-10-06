@@ -90,3 +90,16 @@ this row in the database would be updated to:
 ```
 
 I want to implement the input filter in frontend, but not finish yet, and which would be implemnts later.
+
+
+
+## How to test
+
+The sql file is under the project `database` directory. I use mySQl as my database and Apache web server.  
+The database name is `bookgallery` and the table name is `book`, database user name is `root` without setting any password.  
+<sub>(which could be easily found in `application.properties` file and you could change the database configuration if you want)</sub>
+Both with them could be provided by `XAMPP`, so I use XAMPP 8.2.4 to run my database and web server.  
+![WeChat3b2c016e448cb13a33b0a49bc3a00641](https://github.com/LukeYu-RX78/bookgallery/assets/116868785/e0a7f1f7-f3c0-4710-bcaa-c33fe03240c2)  
+
+After started the database and web server, just run the backend project
+
